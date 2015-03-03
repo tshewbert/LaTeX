@@ -1,0 +1,121 @@
+%% LyX 2.1.1 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{esint}
+\usepackage{babel}
+\begin{document}
+
+\subsection*{Chapter 28: Magnetic Fields}
+
+\emph{Force by a magnetic field:}$\vec{F}=q\overrightarrow{v}\times\overrightarrow{B}$
+
+\emph{Forces by an electric field}: $\overrightarrow{F}=q\overrightarrow{E}=q\frac{V}{d}$
+
+\emph{Circular motion and magnetic fields}: $qvD=\frac{mv^{2}}{r}$
+
+$r=\frac{mv}{qB}$
+
+$f=\frac{\omega}{2\pi}=\frac{1}{T}=\frac{qB}{2\pi M}\Leftrightarrow T=\frac{2\pi}{Bq}$
+
+\emph{Magnetic Field with a Current:}$\overrightarrow{F}=i\overrightarrow{L}\times\overrightarrow{B}$
+
+\emph{Magnitude}: $F=iLB$
+
+\emph{Torque:} $\tau=\overrightarrow{u}\times\overrightarrow{B}$
+
+$\overrightarrow{u}=NiA$ where \emph{N }is the number of loops in
+the coil.
+
+
+\subsection*{Chapter 29: Magnetic Fields Due to Currents}
+
+\emph{Biot-Savart Law:} The magnetic field set up by a current- carrying
+conductor can be found from the Biot \textendash{} Savart law. This
+law asserts that the contribution dB: to the field produced by a current-length
+element i d:s at a point P located a distance r from the current element
+is: $d\vec{B}=\frac{u_{0}}{4\pi}\frac{id\overrightarrow{s}\times\hat{r}}{r^{2}}$
+
+Here r\^{ } is a unit vector that points from the element toward P.
+The quantity m 0, called the permeability constant, has the value$u_{0}=4\pi\times10^{-7}T\cdot m/A$
+
+\emph{Magnetic Field of a Long Straight Wire}: For a long straight
+wire carrying a current i, the Biot \textendash{} Savart law gives,
+for the magnitude of the magnetic field at a perpendicular distance
+R from the wire: $B=\frac{u_{0}i}{2\pi R}$ (long straight wire)
+
+\emph{Magnetic Field of a Circular Arc: }The magnitude of the magnetic
+field at the center of a circular arc, of radius R and central angle
+$\phi$(in radians) carrying current i is$B=\frac{u_{0}i\phi}{4\pi R}$
+(at center of circular arc)
+
+\emph{Force Between Parallel Currents: }Parallel wires carrying currents
+in the same direction attract each other, whereas parallel wires carrying
+currents in opposite directions repel each other. The magnitude of
+the force on a length L of either wire is: $F_{ba}=i_{b}LB_{b}sin90^{\textdegree}=\frac{u_{0}Li_{a}i_{b}}{2\pi d}$
+
+
+\subsection*{Chapter 30: Induction}
+
+\emph{Magnetic Flux} through $\Phi_{B}$through an area A in a magnetic
+field $\overrightarrow{B}$ is defined as $\Phi_{B}=\int\overrightarrow{B}\cdot d\overrightarrow{A}$,
+where the integral is taken over the area. The SI unit of flux is
+the weber, which is equal to 1 $T\cdot m$$^{2}$. If $\overrightarrow{B}$
+is perpendicular to the area and uniform over it, it simplifies.
+
+\emph{Faraday's Law of Inductions }states that if the magnetic flux
+through and area bounded by a closed conducting loop changes with
+time, a current and emf are produced in the loop, called induction.
+$\varepsilon=\frac{d\Phi}{dt}$, and if it is inside a coil of closely
+packed N turns, $\varepsilon=-N\frac{d\Phi}{dt}$
+
+\emph{Lenz's Law }states that an induced current has the direction
+such that the magnetic field caused by the current opposes the change
+in magnetic flux that induces the current. Therefore, the induced
+emf has the same direction as the induced current.
+
+\includegraphics[scale=0.7]{/Users/TylerShewbert/Desktop/LenzsLaw}
+
+\emph{Emf and the induced electric field }an emf is induced by magnetic
+flux even if the loop through which the flux is flowing is not an
+actual conductor. The changing magnetic field induces an electric
+field $\overrightarrow{E}$ at every point of such a loop. The can
+be described as $\varepsilon=\oint\overrightarrow{E\cdot}d\overrightarrow{s}$
+which can be expanded to rewrite Faraday's Law$\varepsilon=\oint\overrightarrow{E\cdot}d\overrightarrow{s}=\frac{d\Phi}{dt}$
+
+\emph{Inductors }are devices that can be used to produce a known magnetic
+field in a specified region. If a current \emph{i }is established
+through each of the \emph{N }windings of an inductor, a magnetic flux
+$\varPhi_{B}$links those windings. Inductance L can be described
+as: $L=\frac{N\varPhi_{B}}{i}$. The SI unit for inductance is the
+henry, H, which is equal to $T\cdot\frac{m^{2}}{A}$. The inductance
+per unit length near the middle of a long solenoid of a a cross-sectional
+area \emph{A }and \emph{n }turns per until length is: $\frac{L}{l}=\mu n^{2}A$.
+
+\emph{Self induction }can be caused when a current\emph{ i }in a coil
+changes with time, causing an induced emf in the coil. This can be
+described as: $\varepsilon_{L}=-L\frac{di}{dt}$. The direction of
+the self-induced emf is found using Lenz's Law, for the self-induced
+emf acts to oppose the change that produces it.
+
+\emph{RL Circuits in Series:} If a constant emf is introduced into
+a single loop circuit contain a resistance \emph{R }and an inductance
+\emph{L, }then the \emph{current rises to equilibrium} $\frac{\varepsilon}{R}$
+by \emph{$i=\frac{\varepsilon}{R}(1-e^{-t/(L/R)})$,} where (L/R)
+is $\tau$ and is referred to as the inductive time constant. The
+\emph{decay of current} can be described by the equation $i=i_{0}e^{-t/(L/R)}$
+
+\emph{Magnetic Energy: }If an inductor \emph{L }carries a current
+\emph{i,} the energy that the inductors magnetic field stores is described
+by: $U_{b}=\frac{1}{2}Li^{2}$. If \emph{B} is the magnetic field
+at any point then the density of that magnetic energy is $u_{b}=\frac{B^{2}}{2\mu}_{0}$
+
+\emph{Mutual Induction }can occur when two coils near each other,
+and a changing current is in either coil, can induce an emf in the
+other, and can be described as $\varepsilon=-M\frac{di}{dt}$, where
+\emph{M }is in henries and is the mutual inductance of two rates of
+current and two emfs.
+\end{document}

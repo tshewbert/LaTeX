@@ -1,0 +1,479 @@
+%% LyX 2.1.1 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{luainputenc}
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\renewcommand\[{\begin{equation}}
+\renewcommand\]{\end{equation}}
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+
+\title{Waves, Part One}
+
+\maketitle
+
+\subsubsection*{Types of Waves}
+\begin{enumerate}
+\item Mechanical Waves: These are the most common waves and include water
+waves, seismic waves and sound waves. They are governed by Newton's
+Laws and much exist within a material medium.
+\item Electromagnetic Waves: These waves include x-rays, ultraviolet light,
+radio, microwaves and radar. These waves do not require a medium to
+travel through to exist. EM waves travel through a vacuum at the speed
+of light.
+\item Matter Waves: These waves are associated with protons, neutrons, electron,
+and other fundamental particles.
+\end{enumerate}
+
+\subsubsection*{Transverse and Longitudinal Waves}
+
+A wave can be sent along a stretched, taut string is a a simple form
+of a mechanical wave. A pulse will travel along the string. As this
+pulse distorts the string's shape the pulse moves along the string
+at some velocity $\overrightarrow{v}.$ If a continuous wave travels
+down the string at $\overrightarrow{v}$ in continuous harmonic motion,
+the motion that causes the pulse can be described by a sinusoidal
+function of time. In an ideal string, no friction-like forces within
+the string will cause the wave to die out as it travels along. In
+an ideal string, it is also assumed that we need not consider the
+wave rebounding from the opposite end from which it began.
+
+Monitoring wave forms is one way to study waves. Another option is
+to monitor an element of string as it oscillates up and down as a
+wave passes it. The displacement of the the up and down oscillations
+in orthogonal to the direction of travel of the wave. This motion
+is said to be \emph{transverse}, and the wave is referred to as a
+\emph{transverse wave.} 
+
+For a \emph{longitudinal wave}, the example of pushing and pulling
+on a piston filled with air can be used. The motion of the air is
+parallel to the direction of the wave's travel is referred to as \emph{longitudinal.}
+
+Both of these types of waves are \emph{traveling waves}, since they
+travel from one point to another. It is the wave that moves from end
+to end, not the material through which the wave moves.
+
+
+\subsubsection*{Wavelength and Frequency}
+
+To describe the wave on a string a function that gives the shape of
+the wave is needed. This means a relation in the form:
+
+\[
+y=h(x,t)
+\]
+
+
+Where \emph{y }is the transverse displacement of any string element
+described by the function \emph{h, }where \emph{t }is time and \emph{x
+}is the position of the element along the string. In general the shape
+is sinusoidal, then the sine or cosine function can be used to describe
+the shape. Here the sine function will be used:
+
+\[
+y(x,t)=y_{m}\sin(kx-\omega t)
+\]
+
+
+This equation is written in terms of \emph{x,} meaning that it can
+be used to find the displacements of all the elements with respect
+to time, \emph{t. }
+
+$y_{m}$is the amplitude of a wave, the maximum displacement of the
+wave elements from their equilibrium positions as the wave passes
+through them. Since it is magnitude, amplitude can always be considered
+a positive quantity.
+
+The phase is described by $kx-\omega t$. As the waves sweeps through
+an element of the string linearly through a particularly position,
+the phases changes with respect to time \emph{t. }Therefore, sine
+also changes, alternating between 1 and -1. Theses max and min values
+of the sine function correspond to the peaks and valleys of $y_{m}$.
+The amplitude of the wave determines the extremes of the elements
+displacement.
+
+
+\subsubsection*{Wavelength and Angular Wave Number}
+
+The wavelength, $\lambda$,of a wave is parallel to the direction
+of the wave's travel and describes the distances between the shape
+of the waves. The equation that describes the wavelength can be written:
+\[
+y(x,0)=y_{m}\sin kx
+\]
+
+
+The displacement \emph{y} at both ends of the wavelength must be the
+same, so $x=x_{1}$and $x=x_{1}+\lambda$. This allows the previous
+equation to be rewritten as:
+
+\begin{eqnarray*}
+y_{m} & = & \sin k(x_{1}+\lambda)\\
+ & = & \sin(kx_{1}+k\lambda)
+\end{eqnarray*}
+
+
+Since a sine function repeats itself every $2\pi$, $k\lambda=2\pi$
+or $k=\frac{2\pi}{\lambda}$, where \emph{k }is the angular wave number
+of the wave, and its units are rad/m, or the inverse meter.
+
+
+\subsubsection*{Period, Angular Frequency and Frequency}
+
+If a single element of the string is monitored, it will be seen that
+at that position \emph{x }the string moves up and down in simple harmonic
+motion. If $x=0$, then $y(0,t)=y_{m}\sin(k(0)-\omega t)$ and then
+$-y_{m}\sin(\omega t)$. If this is graphed, it will show the displacement
+versus time, not the shape of the wave.
+
+A \emph{period} of oscillation \emph{T }is defined at the time any
+string element takes to move through one full oscillation. To find
+the angular frequency $\omega$ or period \emph{T, }we use $-y_{m}\sin(\omega t)$:
+
+\begin{eqnarray*}
+-y_{m}\sin(\omega t) & = & -y_{m}\sin\omega(t_{1}+T)\\
+ & = & -y_{m}\sin(\omega t_{1}+\omega T)
+\end{eqnarray*}
+
+
+This is only true if $2\pi=\omega T$. The can be written to describe
+\emph{angular frequency:}
+
+\[
+\omega=\frac{2\pi}{T}
+\]
+
+
+The SI unit of angular frequency is radians per second.
+
+The frequency \emph{f }of a wave is defined as $1/T$ and is related
+to angular frequency by:
+\[
+f=\frac{1}{T}=\frac{\omega}{2\pi}
+\]
+
+
+
+\subsubsection*{Phase Constant}
+
+The phase constant $\phi$ can be used to generalize the equation
+$y(x,t)=y_{m}\sin(kx-\omega t)$ by transforming it to $y(x,t)=y_{m}\sin(kx-\omega t+\phi)$.
+The value of $\phi$ can be chosen so the function gives a different
+displacement and slope at $x=0$ and $t=0$. Basically, the function
+is shifted by the value of $\phi$.
+
+
+\subsubsection*{The Speed of a Traveling Wave}
+
+If a wave is traveling in the positive \emph{x }direction over a period
+of time, this can be described by $\Delta x/\Delta t$. At an instantaneous
+point, this can be written in the differential form $\frac{dx}{dt}$,
+which is the wave speed\emph{ v.}
+
+If the displacement \emph{y }remains the same, then $kx-wt$ is a
+constant, but \emph{x }and \emph{t }are both changing, which means
+that as time increases, so does displacement to keep the argument
+constant, confirming that the wave pattern in moving in a positive
+direction.
+
+To find the wave speed, we can take the derivative of $kx-wt$:
+
+\begin{eqnarray*}
+k\frac{dx}{dt}-\omega & = & 0\\
+\frac{dx}{dt}= & v & =\frac{\omega}{k}
+\end{eqnarray*}
+
+
+Assuming that $k=2\pi/\lambda$and $\omega=2\pi/T$, these equations
+can be rewritten as:
+
+\[
+v=\frac{\omega}{k}=\frac{\lambda}{T}=\lambda f
+\]
+
+
+Which describes wave speed traveling in the positive direction, \emph{x.}
+
+For a wave speed in the negative \emph{x }direction:
+
+\[
+\frac{dx}{dt}=-\frac{\omega}{k}
+\]
+
+
+
+\subsubsection*{Wave Speed on a Stretched String}
+
+The properties of the medium ultimately set the speed of a wave even
+though the speed is relation to the wave's frequency and wavelength.
+For a wave to travel through a medium, it must cause the particles
+of the medium to oscillate as it passes, which requires mass and elasticity,
+for kinetic and potential energy. 
+
+We can use dimensional analysis to examine the mass and elasticity
+to find a speed \emph{v, }which has the dimension of length divided
+by time. The value of mass is the mass of the string element, which
+is the mass \emph{m }of the string divided by the length \emph{l}.
+This is the linear density $\mu$of the string.
+
+A wave cannot be sent along a string unless the string is under tension.
+This tension $\tau$ is being caused by forces on either end of the
+string stretching and pulling taut the string. As the wave travels
+along the string, it displaces the string by causing stretching, with
+adjacent sections of string pulling on each other because of tension.
+This tension in the string can be associated with the elasticity of
+the string. This can be described by $MLT^{-2}$.
+
+Combining $\mu$ with $\tau$ to get \emph{v} ends up with:
+
+\[
+v=C\sqrt{\frac{\tau}{\mu}}=C\sqrt{\frac{MLT^{-2}}{ML^{-1}}}
+\]
+
+
+Where \emph{C }is a dimensionless constant that cannot be determined
+through dimensional analysis.
+
+It is also possible to derive wave speed from Newton's Second Law.
+To do this, we must consider and single, symmetrical pulse that is
+moving in the positive \emph{x }direction with a speed \emph{v. }Choosing
+a reference point where the pulse remains stationary, the string appearing
+to be moving, not the wave. A small string element $\Delta l$ within
+the pulse, an arc of a circle \emph{R, }and an angle $2\theta$, are
+all parts. A force $\vec{\tau}$with a magnitude equal to the tension
+in the string pulls on the string at each end. This allows the horizontal
+components of the forces to cancel, but allows the vertical component
+to add forming a radial restoring force $\vec{F}$:
+
+\[
+F=2(\tau\sin\theta)\approx\tau(2\theta)=\tau\frac{\Delta l}{R}
+\]
+
+
+The mass of this element is:
+\[
+\Delta m=\mu\Delta l
+\]
+
+
+Since it is moving in an arc, we can use centripetal acceleration
+towards the center of that circle, and transforming Newton's Second
+Law gives us the form:
+
+\[
+\frac{\tau\Delta l}{R}=(\mu\Delta l)\frac{v^{2}}{R}
+\]
+
+
+Solving for \emph{v:}
+\[
+v=\sqrt{\frac{\tau}{\mu}}
+\]
+
+
+The speed of a wave along a stretched ideal string is dependent only
+on the tension and linear density of the string and not the frequency
+of the wave.
+
+
+\subsubsection*{The Energy and Power of a Wave Traveling Along a String}
+
+As a wave moves on a stretched spring, it provides transports both
+kinetic and potential energy.
+
+\emph{For Kinetic Energy (KE): }The transverse velocity $\vec{\mu}$is
+associated with kinetic energy. A string element of mass $dm$ oscillates
+transversely with simple harmonic motion as the wave passes. When
+the wave passes through $y=0$, KE is at its maximum, and likewise,
+when the wave passes through $y=y_{m}$KE is at its minimum.
+
+\emph{Elastic Potential Energy(PE): }Elastic potential energy is associated
+with the changes in length, $dx$, of the a string element as it oscillates
+transversely. At $y=0$, the string has its maximum stretch and therefore
+the maximum potential energy, and likewise at $y=y_{m}$ the value
+of $dx$ is undisturbed therefore its PE is zero.
+
+The maximum PE and KE are both at $y=0$
+
+
+\subsubsection*{The Rate of Energy Transmission}
+
+The kinetic energy differential $dK$ is related to a string element
+mass differential $dm$ by
+\[
+dK=\frac{1}{2}dmu^{2}
+\]
+
+
+where $u$ is the transverse speed of the string element that is oscillating.
+The value of $u$ can be found by taking the partial derivative $\frac{\partial y}{\partial t}$
+of $y(x,t)=y_{m}\sin(kx-\omega t)$ which leads to
+\[
+u=-\omega y_{m}\cos(kx-\omega t)
+\]
+
+
+This can be rewritten using the relation $dm=\mu dx$
+\[
+dK=\frac{1}{2}(\mu dx)(-\omega y_{m})^{2}\cos^{2}(kx-\omega t)
+\]
+
+
+Divide that by the time differential $dt$ gives the rate which kinetic
+energy is carried along by the wave
+\[
+(\frac{dK}{dt})=\frac{1}{2}\mu\frac{dx}{dt}\omega^{2}y_{m}{}^{2}\cos^{2}(kx-\omega t)
+\]
+
+
+Which can also be described at the average rate KE is transported,
+and can be simplified to
+\[
+\frac{dK}{dt}_{avg}=\frac{1}{4}\mu v\omega^{2}y_{m}^{2}
+\]
+
+
+Using this equation, the average power can be described as
+\[
+P_{avg}=2(\frac{dK}{dt})_{avg}=\frac{1}{2}\mu v\omega^{2}y_{m}^{2}
+\]
+
+
+
+\subsubsection*{The Wave Equation}
+
+Using Newton's Second Law to the an element on a stretched string
+with a wave passing through it, a general differential equation, referred
+to as the wave equation, can be derived that describes the travel
+of waves of any type.
+
+If it is assumed that the wave amplitude is so small that the element
+is only slightly tilted from the $x$ axis, then the force $\vec{F_{2}}$
+on the right end of the element has a magnitude equal to $\tau$ and
+is directed slightly upward. Likewise, $\vec{F_{1}}$on the left end
+has a magnitude equal to $\tau$ but is directed downward. Because
+of the slight curvature, there is an upward acceleration produced,
+$a_{y}$. If mass is differential, then Newton's second law can be
+rewritten
+\[
+F_{2y}-F_{1y}=dm\, a_{y}
+\]
+
+
+Mass $dm$ can be rewritten as $dm=\mu l$ and further rewritten as
+$dm=\mu dx$. Acceleration can be rewritten as the second derivative
+of\emph{ y} with respect to \emph{t, $\frac{d^{2}y}{dt^{2}}$. }The
+forces can be described as the string slope $\frac{F_{2y}}{F_{2x}}=S_{2}$and
+$\tau=F_{2x}$ because the element is only slightly tilted, and can
+be rewritten as $F_{2y}=\tau S_{2}$and through similar analysis $F_{1y}=\tau S_{1}$.
+Since the string element is short, the slope can actually be described
+by $\frac{dy}{dx}$. Through some substitution and simplifying we
+can reduced the equation $F_{2y}-F_{1y}=dm\, a_{y}$ to
+
+\[
+\frac{\partial^{2}y}{\partial x^{2}}=\frac{1}{v^{2}}\frac{\partial^{2}y}{\partial t^{2}}
+\]
+
+
+using partial derivatives to differentiate on the left with respect
+to \emph{x }and on the right with respect to \emph{y.}
+
+This is the general differential equation that describes the travel
+of waves of all types.
+
+
+\subsubsection*{The Principle of the Superposition of Waves}
+
+Overlapping waves add algebraically to produce a resultant wave, and
+overlapping waves do not in any way alter the travel of each other,
+which can be described by the equation
+\[
+y'(x,t)=y_{1}(x,t)+y_{2}(x,t)
+\]
+
+
+
+\subsubsection*{Interference of Waves}
+
+The resultant wave described by the previous equation depends on the
+extent to which the waves are in phase. Combining waves is called
+interference. If two waves of the same amplitude and wavelength travel
+in the same direction along a stretched string, they will interfere
+two produce a resultant wave, if both the waves are sinusoidal. This
+result can be described by the equation
+\[
+y'(x,t)=[2y_{m}\cos\frac{1}{2}\phi]\sin(kx-\omega t+\frac{1}{2}\phi
+\]
+
+
+There are two differences between the resultant wave and the interfering
+waves. First, its phase is $\frac{1}{2}\phi$ and second, its amplitude
+$y'm$ is the magnitude of the quantity
+\[
+y'_{m}=|2y_{m}\cos\frac{1}{2}\phi|
+\]
+
+
+If $\phi=0$, then the interfering waves are exactly in phase. Fully
+constructive interference is the interference that produces the greatest
+possible amplitude. 
+
+If $\phi=\pi$, then the interfering waves are exactly out of phase.
+Even though two waves were sent along the string, there is no motion
+on the string. The is referred to as fully destructive interference.
+
+
+\subsubsection*{Phasors}
+
+A \emph{phasor} can be used to represent a string wave vectorially.
+A phasor is a vector that has the same magnitude as the amplitude
+of the wave and rotates about the origin. By this, the angular speed
+is equal to the angular frequency $\omega$. Phasors can be used to
+combined waves even if the waves have different amplitudes. Using
+vectors to add the phasors component wise allows this to happen, resulting
+in a new $y_{m}$ which is the magnitude of the vector addition of
+the horizontal and vertical components.
+
+
+\subsubsection*{Standing Waves}
+
+If two waves are traveling in opposite directions, the resultant wave
+can be found by applying the superposition principle. If two waves
+of the same amplitude and wavelength travel in opposite directions,
+their interference with each other will produce a standing wave. The
+wave patterns do no move left or right. Combining the two waves, changing
+the sign in from of $\omega$ leads to the equation
+\[
+y'(x,t)=[2y_{m}\sin kx]\cos\omega t
+\]
+
+
+which describes a standing wave. In a standing wave, amplitude varies
+with position. A standing wave can be set up by sending a stretched
+string by allowing a traveling wave to be reflected from the far end
+of the string so the wave travels through itself.
+
+
+\subsubsection*{Standing Waves and Resonance}
+
+A wave is a standing wave if it is at a resonant frequency, which
+is referred to as resonance. If the string is oscillated at some other
+frequency other than a resonant frequency, the wave is not a standing
+wave. Resonant frequencies can be found by
+\[
+f=\frac{v}{\lambda}=n\frac{v}{2L}\, for\, n=1,2,3
+\]
+
+
+The fundamental mode of the first harmonic is the oscillation mode
+with the lowest frequency. The second harmonic is the oscillation
+mode with $n=2$, and so on. These oscillation modes are called the
+harmonic series, and \emph{n }is the harmonic number of the \emph{n}th
+harmonic. Resonance can occur in three dimensions.
+\end{document}
